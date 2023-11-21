@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tables in HTML</title>
+    <style>
+      h1 {
+        color: red;
+        text-align: center;
+      }
+      .white {
+        background-color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>¡Super Oferta! Viaje a <b> Nueva Zelanda</b></h1>
+    <table align="center">
+      <thead style="background: rgba(255, 128, 0, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+        <tr>
+          <th class="white">&nbsp;</th>
+          <th class="white">&nbsp;</th>
+          <th class="white">&nbsp;</th>
+          <th colspan="2">Hoteles 3 Estrellas</th>
+          <th rowspan="2">Hoteles 4 Estrellas</th>
+        </tr>
+        <tr>
+          <td class="white">&nbsp;</td>
+          <td class="white">&nbsp;</td>
+          <td class="white">&nbsp;</td>
+          <th>Sólo alojamiento</th>
+          <th>Pensión completa</th>
+        </tr>
+      </thead>
+      <tbody
+        style="background: rgba(255, 128, 0, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+        <tr>
+          <th colspan="2" rowspan="2">1 semana</th>
+          <th>Avión turista</th>
+          <td align="center" >700 USD</td>
+          <td align="center">1000 USD</td>
+          <td colspan="2" rowspan="2" align="center">1500 USD</td>
+        </tr>
+        <tr>
+          <th>Avión preferente</th>
+          <td align="center">850 USD</td>
+          <td align="center">1150 USD</td>
+        </tr>
+      </tbody>
+      <tfoot
+        style="background: rgba(255, 128, 0, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+        <tr>
+          <th colspan="3">2 semanas</th>
+          <td align="center">1300 USD</td>
+          <td align="center">1850 USD</td>
+          <td colspan="2" align="center">2600 USD</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
